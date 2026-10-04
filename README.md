@@ -71,10 +71,32 @@ In July 2026, Manual Therapy recorded **8 improved patients out of 8**. Because 
 
 The project includes visualizations for:
 
-1. Treatment Improvement Rate
-2. Monthly Patient Improvement Trend
-3. Average Pain Score by Diagnosis
-4. Patient Volume by Diagnosis
+## Visualizations
+
+### 1. Overall Treatment Improvement Rate
+
+![Treatment Improvement Rate](01_treatment_improvement_rate.png)
+
+ROM Exercises showed the highest observed overall improvement rate at 66.7%.
+
+### 2. Monthly Patient Improvement Trend
+
+![Monthly Improvement Trend](02_monthly_improvement_trend.png)
+
+This visualization shows the monthly pattern of patients recorded as improved.
+
+### 3. Average Pain Score by Diagnosis
+
+![Average Pain by Diagnosis](03_average_pain_by_diagnosis.png)
+
+Stroke showed the highest observed average pain score at approximately 5.80.
+
+### 4. Patient Volume by Diagnosis
+
+![Patient Volume by Diagnosis](04_patient_volume_by_diagnosis.png)
+
+Stroke had the highest patient volume with 164 patients.
+
 
 ## Key Insight
 
