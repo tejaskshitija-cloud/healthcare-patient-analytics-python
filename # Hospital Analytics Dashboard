@@ -1,0 +1,44 @@
+# Hospital Analytics Dashboard
+
+## Project Overview
+
+This project demonstrates the use of healthcare data analytics to examine hospital encounters, patient volumes, length of stay, pain scores, and long-stay encounters through an interactive Power BI dashboard.
+
+## Dataset
+
+* 5,000 synthetic hospital encounter records
+* 2,603 unique patient IDs
+* 8 diagnosis categories across 5 departments
+* Admission dates, discharge dates, length of stay, and pain scores
+
+**Note:** This is a simulated dataset created for educational and portfolio purposes. It does not contain real patient records and should not be used to draw conclusions about actual clinical populations.
+
+## Tools Used
+
+* Python and Pandas for dataset preparation and validation
+* Power BI Desktop for interactive dashboard development
+* Data quality checks for duplicate encounter IDs, missing values, and length-of-stay consistency
+
+## Key Performance Indicators
+
+* Total hospital encounters
+* Unique patients
+* Average length of stay
+* Average pain score
+* Long-stay encounters exceeding 14 days
+
+## Dashboard Features
+
+* Average length of stay by diagnosis
+* Long-stay encounters by diagnosis
+* Average pain score by diagnosis
+* Total encounters by department
+* Diagnosis and department slicers for interactive filtering
+
+## Skills Demonstrated
+
+Healthcare analytics, data preparation, data quality validation, KPI reporting, data visualization, Power BI, Python, Pandas, and healthcare domain knowledge.
+
+## Important Limitation
+
+The data is synthetic, and its distributions were designed for practice. The results are illustrative, not evidence of real-world clinical outcomes or treatment effectiveness.
