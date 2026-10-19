@@ -1,42 +1,68 @@
-# Hospital Analytics Dashboard — Project 2
+# Hospital Length-of-Stay Analytics
 
-## Project Overview
+## 1. Project Overview
+This project analyses a synthetic hospital encounter dataset to explore length of stay (LOS), pain scores, and department-level patterns. The aim is to demonstrate healthcare data quality validation, KPI reporting, and exploratory data analysis.
 
-An interactive Power BI dashboard designed to explore hospital encounter volumes, length of stay, pain scores, and long-stay encounters.
+**Important:** The dataset is synthetic and does not represent actual patients or hospital outcomes.
 
-## Dataset
+## 2. Business Problem
+Healthcare teams need clear, reliable reports to monitor patient stays and identify patterns that may deserve further review. This project demonstrates how healthcare data can be converted into understandable performance indicators.
 
-* 5,000 synthetic hospital encounters
-* 2,603 unique patient IDs
-* 8 diagnosis categories
-* 5 hospital departments
+## 3. Dataset
+- Total encounters: 5,000
+- Unique patients: 2,603
+- Departments: 5
+- Diagnoses: 8
+- Long stay definition: more than 14 days
 
-## Tools
+## 4. Data Quality Checks
+The analysis checked for:
+- Missing values
+- Duplicate records and encounter IDs
+- Length-of-stay consistency
+- Invalid dates and negative length of stay
+- Age and pain scores outside expected ranges
 
-* Python and Pandas — data preparation and validation
-* Power BI Desktop — dashboard development
-* CSV — dataset storage and transfer
+The reported validation checks found no issues in these categories.
 
-## Key Performance Indicators
+## 5. Key Performance Indicators
+- Average length of stay: 6.61 days
+- Average pain score: 4.75 out of 10
+- Long-stay encounters: 180
+- Long-stay rate: 3.60%
 
-* Total encounters
-* Unique patients
-* Average length of stay
-* Average pain score
-* Long-stay encounters exceeding 14 days
+## 6. Key Findings
+- Neurology had the highest long-stay rate in this dataset: 13.38%.
+- Orthopedics had 98 long-stay encounters, compared with 82 in Neurology.
+- Orthopedics had the highest average pain score: 6.50 out of 10.
+- Neurology had the highest average length of stay: 9.17 days.
+- No long-stay encounters appeared in the other three departments in this synthetic dataset.
 
-## Dashboard Visuals
+These are descriptive findings from synthetic data, not evidence of real-world clinical performance or cause and effect.
 
-* Average length of stay by diagnosis
-* Long-stay encounters by diagnosis
-* Average pain score by diagnosis
-* Total encounters by department
-* Interactive diagnosis and department filters
+## 7. Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Google Colab
+- Excel
+- Power BI (for related dashboard work)
 
-## Data Quality
+## 8. Project Outputs
+- Data quality validation
+- Hospital KPI summary
+- Department-level analysis
+- Visualisations of long-stay rates, average length of stay, and average pain scores
+- Excel results workbook
 
-Checked for missing values, duplicate encounter IDs, and consistency between length of stay and admission/discharge dates.
+## 9. Limitations
+The dataset is synthetic. The findings cannot be generalised to real hospitals. Further work would require appropriate real-world data, clinical context, and validation before operational use.
 
-## Important Note
+## 10. Future Improvements
+- Develop an interactive Power BI dashboard.
+- Add time-based trend analysis.
+- Investigate relevant factors associated with longer stays.
+- Validate analytical methods using suitable real-world data where access and permissions allow.
 
-The dataset is synthetic and intended for learning and portfolio demonstration only. Results do not represent actual hospital performance or establish clinical causation.
+## Skills Demonstrated
+Healthcare analytics, data quality assessment, KPI development, data aggregation, exploratory data analysis, visualisation, and healthcare reporting.
